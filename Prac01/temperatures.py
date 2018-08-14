@@ -1,6 +1,6 @@
 """
-CP1404/CP5632 - Practical
 Temperature conversions
+
 """
 
 MENU = """C - Convert Celsius to Fahrenheit
