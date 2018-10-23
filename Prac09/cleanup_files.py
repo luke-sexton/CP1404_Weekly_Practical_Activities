@@ -10,10 +10,14 @@ def main():
     """Demo os module functions."""
     print("Starting directory is: {}".format(os.getcwd()))
 
+    # Change to desired directory
     os.chdir('Lyrics/Christmas')
 
+    # Print a list of all files in current directory
     print("Files in {}:\n{}\n".format(os.getcwd(), os.listdir('.')))
 
+    # Make a new directory
+    # The next time you run this, it will crash if the directory exists
     try:
         os.mkdir('temp')
     except FileExistsError:
