@@ -26,7 +26,7 @@ def do_something(n):
         do_something(n - 1)
 
 
-print(do_something(4))
+do_something(4)
 # 3. write down what you think the output of do_something(4) will be,
 # Output:
 # 16
